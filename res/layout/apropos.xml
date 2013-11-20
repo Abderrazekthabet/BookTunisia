@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#E3E3E3"
+    android:orientation="vertical"
+    android:padding="5.0dip" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+    android:background="#E3E3E3"
+        android:orientation="vertical"
+        android:padding="5.0dip" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="5.0dip"
+            android:src="@drawable/rating_on" />
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="5.0dip"
+            android:text="     INSAT \n2012-2013"
+            android:textColor="@color/grey"
+            android:textSize="50sp" />
+        
+         <TextView
+             android:id="@+id/txt5"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_horizontal"
+             android:padding="5.0dip"
+             android:text="Salim Ghdiri"
+             android:textColor="@color/grey"
+             android:textSize="40sp" />
+         
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="5.0dip"
+            android:text="Mohamed Melghi"
+            android:textColor="@color/grey"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="5.0dip"
+            android:text="Mohamed Taher Zwawa"
+            android:textColor="@color/grey"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/site"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="5.0dip"
+            android:text="hotel.alwaysdata.net"
+            android:textColor="@color/grey"
+            android:textSize="40sp" />
+
+    </LinearLayout>
+
+</ScrollView>

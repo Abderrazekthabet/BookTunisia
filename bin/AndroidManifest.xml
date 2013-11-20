@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.booktunisia.main"
+    android:installLocation="auto"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="7" />
+
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WAKE_LOCK" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Sherlock.Light.DarkActionBar" >
+        <uses-library android:name="com.google.android.maps" />
+
+        <activity
+            android:name="com.booktunisia.main.Main"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AddReservation" >
+        </activity>
+        <activity
+            android:name=".Panorama"
+            android:label="Panorama" >
+        </activity>
+        <activity
+            android:name=".Consulter"
+            android:label="Consulter" >
+        </activity>
+        <activity android:name=".Gmap" >
+        </activity>
+        <activity
+            android:name=".HotelDetails"
+            android:label="Details hôtel" >
+        </activity>
+        <activity
+            android:name=".Rechercher"
+            android:label="Rechercher" >
+        </activity>
+        <activity
+            android:name=".Step1"
+            android:label="Infos de la réservation" >
+        </activity>
+        <activity
+            android:name=".Step2"
+            android:label="Infos personnelles" >
+        </activity>
+        <activity
+            android:name=".Step3"
+            android:label="Bilan" >
+        </activity>
+        <activity
+            android:name=".Step4"
+            android:label="Paiement" >
+        </activity>
+    </application>
+
+</manifest>

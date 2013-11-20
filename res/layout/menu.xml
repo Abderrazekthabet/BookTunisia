@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+ 
+	<item android:id="@+id/itemconsulter" 
+      android:title="Consulter"	/>
+     
+     <item android:id="@+id/itemrechercher" 
+     android:title="Rechercher" />
+     
+     <item android:id="@+id/itemabout" 
+     android:title="A propos" />
+ 
+	<item android:id="@+id/itemquitter" 
+     android:title="Quitter"
+     />
+</menu>

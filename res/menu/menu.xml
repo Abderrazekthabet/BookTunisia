@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+ 
+	<item android:id="@+id/itemconsulter" 
+      android:title="Consulter"
+      android:orderInCategory="100"
+      android:showAsAction="always"	/>
+     
+     <item android:id="@+id/itemrechercher" 
+     android:title="Rechercher"
+     android:orderInCategory="100"
+     android:showAsAction="always" />
+     
+     <item android:id="@+id/itemabout" 
+     android:title="A propos"
+     android:orderInCategory="100"
+     android:showAsAction="always" />
+ 
+	<item android:id="@+id/itemquitter" 
+     android:title="Quitter"
+     android:orderInCategory="100"
+     android:showAsAction="always" />
+</menu>
